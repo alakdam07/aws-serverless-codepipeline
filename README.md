@@ -17,6 +17,17 @@ chmod +x ./bin/setup
 - `npm install`
 - `npm run setup` (enter appropriate AWS keys)
 
+
+# to check the aws configure
+
+```bash
+cat  ~/.aws/credentials
+
+or
+
+open ~/.aws/credentials
+```
+
 ### API Gateway-like local dev server
 
 To spin up a local dev server that will more closely match the API Gateway endpoint/experience:
