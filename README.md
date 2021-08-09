@@ -28,6 +28,17 @@ or
 open ~/.aws/credentials
 ```
 
+# add aws profile 
+
+```bash
+open ~/.aws/credentials 
+
+or 
+
+open ~/.aws/config
+```
+
+
 ### API Gateway-like local dev server
 
 To spin up a local dev server that will more closely match the API Gateway endpoint/experience:
